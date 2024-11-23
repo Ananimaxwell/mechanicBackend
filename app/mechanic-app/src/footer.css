@@ -1,0 +1,25 @@
+.row{
+    
+    color: aquamarine;
+    background-color: black;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.col-md-6{
+    display: inline-block;
+    
+}
+.list-inline{
+    display: inline-block;
+
+}
+
+.list-inline-item{
+    display: inline;
+    padding-right: 10px;
+}
+.footer-container{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

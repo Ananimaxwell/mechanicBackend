@@ -1,0 +1,24 @@
+.contact-content{
+    text-align: center;
+}
+.contact-content h1{
+    background-color: darkslateblue;
+}
+.contact .contact-content{
+    text-align: center;
+    margin: 80px auto 0 auto;
+}
+.contact .contact-content h1{
+    font-family: 'Roboto',sans-serif;
+    color: red;
+}
+.address-holder a{
+    color:blue;
+    background-color: purple;
+    padding: 13px 42px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}

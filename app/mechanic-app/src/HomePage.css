@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.home{
+    background: url("l2.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav{
+    height: 50px;
+    background: black;
+    background-size: cover;
+    
+}
+.nav div{
+    display: inline;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: aqua;
+    padding-left: 20px;
+}
+.nav ul{
+    position: absolute;
+    right: 5px ;
+
+}
+.nav ul li{
+    display: inline-block;
+    padding-right: 13px;
+}
+.nav ul li a{
+    color: aliceblue;
+    padding: 5px;
+}
+.home .tagline{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.about .about-content{
+    margin: 150px auto 0 auto;
+    width: 500px;
+
+}
+.about-content h1{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    color: red;
+
+}
+.about-content p{
+    text-align: justify;
+    font-family: 'Lato',sans-serif;
+    color: green;
+}
+
+.middle{
+    color: azure;
+    align-items: center;
+    display: block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-weight:bold;
+    font-size: x-large;
+}
+.middle button{
+    color:blue;
+    border: 50px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 3px 4px 3px 4px;
+    background-color: antiquewhite;
+    margin-right: 5px;
+    font-size: 15px;
+    width: 200px;
+}

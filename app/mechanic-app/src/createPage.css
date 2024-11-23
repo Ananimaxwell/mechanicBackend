@@ -1,0 +1,32 @@
+.Create_main_container{
+    display: flex;
+    height: 100vh;
+    
+    
+}
+.Create_btn_page{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color:steelblue
+    
+    
+    
+    
+    
+}
+.Create_form_page{
+    flex: 1;
+    padding: 20px;
+    
+    
+}
+@media(max-width:768px){
+    .Create_main_container{
+        flex-direction: column;
+    }
+    .Create_form_page,
+    .Create_btn_page{
+        padding: 10px;
+    }
+}

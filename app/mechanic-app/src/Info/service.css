@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Times New Roman');
+.service-content{
+    text-align: center;
+    
+}
+.service-content h1{
+    background-color: darkslateblue;
+}
+.service .service-content{
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+.service .card-container ul{
+    padding: 0;
+}
+.service-content .card-container ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 20px;
+    width: 300px;
+}
+.service-content .card-container ul li p{
+    text-align: justify;
+    font-family: 'Lato',sans-serif;
+    color: green;
+}
+.service .service-content h1{
+    font-family: 'Roboto',sans-serif;
+    color: red;
+}

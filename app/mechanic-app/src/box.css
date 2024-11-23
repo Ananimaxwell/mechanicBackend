@@ -1,0 +1,55 @@
+html ,body{
+    height: 100%;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-image: url(mec.jpg);
+    
+}
+.box{
+   flex-grow: 1;
+   height: 50%;
+   margin: 10px;
+   border: 1px solid black;
+   box-sizing: border-box;
+   width: 500px;
+   padding-left: 10px;
+   box-shadow: 30px;
+   border-radius: 20px;
+   background-color:darkgray;
+}
+.welcomeNote{
+    text-align: center;
+    color:blueviolet;
+}
+#spray-box{
+    background-image: url(spray.jpg);
+    background-size: cover;
+    
+}
+#hundai-box{
+    background-image:url(hundai.png);
+    background-size:500px;
+    
+}
+span{
+    display: block;
+    background-color:darkblue;
+    height: 100px;
+    color: white;
+    
+    
+}
+h3{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.icons{
+    padding-left: 20px;
+}

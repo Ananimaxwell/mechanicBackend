@@ -1,0 +1,22 @@
+.main{
+    background-color: bisque;
+}
+.cart-container{
+    display: inline-block;
+    margin-top: 1px;
+    height: 300px;
+}
+.man{
+    float:left;
+    width: 50%;
+    background-color: brown;
+    
+    
+
+}
+.section{
+    float: right;
+    width: 50%;
+    background-color: aqua;
+}
+
